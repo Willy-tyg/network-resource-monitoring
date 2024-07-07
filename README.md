@@ -4,14 +4,14 @@ Cette application permet de collecter et de visualiser l'utilisation des ressour
 
 
 
-*Clonage du Dépôt
+## **Clonage du Dépôt**
 
 Commencez par cloner le dépôt GitHub sur votre machine locale.
 
 	git clone https://github.com/Willy-tyg/network-resource-monitoring.git
 	cd network-resource-monitoring
 	
-*Installation des Dépendances
+## **Installation des Dépendances**
 
 	sudo apt-get install apache2 php libapache2-mod-php php-mysql mysql-server
 	sudo apt-get install software-properties-common
@@ -22,7 +22,7 @@ Commencez par cloner le dépôt GitHub sur votre machine locale.
 	sudo apt-get install libmysqlcppconn-dev
 
 
-*Configurer la base de données  :	
+## **Configurer la base de données  :	**
 
 	sudo mysql -u root -p
 	# Puis, dans l'interface MySQL :
@@ -31,7 +31,7 @@ Commencez par cloner le dépôt GitHub sur votre machine locale.
 	SOURCE visualisation/database/node.sql;
 
 
-*Lancer le serveur et l'agent
+## **Lancer le serveur et l'agent**
 
 	*Serveur	
  
@@ -69,7 +69,7 @@ Commencez par cloner le dépôt GitHub sur votre machine locale.
 	    	cd collecte/client
 	    	sudo ./script.sh
 
-*Application Web
+## **Application Web**
 
 
 
@@ -91,7 +91,7 @@ Commencez par cloner le dépôt GitHub sur votre machine locale.
 
 		sudo cp -r visualisation /var/www/html/
 
-*Visualisation des Données
+## **Visualisation des Données**
 
 	*Ouvrez un navigateur web et accédez à l'adresse IP de votre serveur pour voir l'interface de visualisation des données.
 
