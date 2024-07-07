@@ -31,9 +31,12 @@ Commencez par cloner le dépôt GitHub sur votre machine locale.
 	SOURCE visualisation/database/node.sql;
 
 
-*Lancer le serveur et lagent
+*Lancer le serveur et l'agent
+
 	*Serveur	
+ 
 	    Compiler le code serveur :
+     
 		cd collecte/serveur
 		make
 
