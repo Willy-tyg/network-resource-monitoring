@@ -105,4 +105,4 @@ Commencez par cloner le dépôt GitHub sur votre machine locale.
 		
 SI VOUS AVEZ UN AUTRE SERVEUR WEB, vous pouvez juste deposez le dossier à la bonne emplacement et bien configurer les chemins d'accès.
 
-NOS CONTACTS: gireswilly32@gmail.com / +237608417185
+NOS CONTACTS: gireswilly32@gmail.com / +237680417185
