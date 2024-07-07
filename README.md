@@ -39,6 +39,7 @@ Commencez par cloner le dépôt GitHub sur votre machine locale.
      
 		cd collecte/serveur
 		make
+  		./serveur
 
 	*Client ou agent de collecte
 
