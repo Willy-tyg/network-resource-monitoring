@@ -33,7 +33,7 @@ Commencez par cloner le dépôt GitHub sur votre machine locale.
 
 ## **Lancer le serveur et l'agent**
 
-	###Serveur	
+	### Serveur	
  
 	    Compiler le code serveur :
      
@@ -41,7 +41,7 @@ Commencez par cloner le dépôt GitHub sur votre machine locale.
 		make
   		./serveur
 
-	###Client ou agent de collecte
+	### Client ou agent de collecte
 
 	    *Installer les bibliothèques nécessaires pour le client C++ :
 
@@ -73,19 +73,19 @@ Commencez par cloner le dépôt GitHub sur votre machine locale.
 
 
 
-	*Lancement de l'Application
+	### Lancement de l'Application
 
 	    *Démarrer Apache :
 		sudo systemctl start apache2
 		
-	*mettez à jour vos informations de connexion a la base de données
+	### mettez à jour vos informations de connexion a la base de données
 	    *Dans le fichier initialize.php du dossier visualisation mettez à jour les infos 
 	    	ligne6: DB_SERVER: adresse ip du serveur php
 		ligne7: DB_USERNAME: utilisateur de la bd;
 		ligne8: DB_PASSWORD: mot de passe de l'user de la bd;
 		ligne9: DB_NAME: nom de la base de donnée(node);
 
-    	*Déployer l'application web :
+    	### Déployer l'application web :
 
 	    *Copiez le dossier "visualisation" dans le répertoire web de votre serveur Apache.
 
@@ -93,10 +93,10 @@ Commencez par cloner le dépôt GitHub sur votre machine locale.
 
 ## **Visualisation des Données**
 
-	*Ouvrez un navigateur web et accédez à l'adresse IP de votre serveur pour voir l'interface de visualisation des données.
+	### Ouvrez un navigateur web et accédez à l'adresse IP de votre serveur pour voir l'interface de visualisation des données.
 
 	        http://[Adresse IP de votre serveur]
-	*une interface de connexion apparaitra utilisez ces identifiants:
+	### une interface de connexion apparaitra utilisez ces identifiants:
 		username: admin
 		pass: admin123
 		
@@ -107,6 +107,6 @@ Commencez par cloner le dépôt GitHub sur votre machine locale.
 		
 		
 		
-SI VOUS AVEZ UN AUTRE SERVEUR WEB, vous pouvez juste deposez le dossier à la bonne emplacement et bien configurer les chemins d'accès.
+## SI VOUS AVEZ UN AUTRE SERVEUR WEB, vous pouvez juste deposez le dossier à la bonne emplacement et bien configurer les chemins d'accès.
 
 NOS CONTACTS: gireswilly32@gmail.com / +237680417185
