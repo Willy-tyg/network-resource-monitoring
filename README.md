@@ -8,7 +8,7 @@ Cette application permet de collecter et de visualiser l'utilisation des ressour
 
 Commencez par cloner le dépôt GitHub sur votre machine locale.
 
-	https://github.com/Willy-tyg/network-resource-monitoring.git
+	git clone https://github.com/Willy-tyg/network-resource-monitoring.git
 	cd network-resource-monitoring
 	
 *Installation des Dépendances
