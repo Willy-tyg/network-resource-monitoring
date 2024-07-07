@@ -1,4 +1,4 @@
-Application de Collecte et de Visualisation des Ressources
+# **Application de Collecte et de Visualisation des Ressources**
 
 Cette application permet de collecter et de visualiser l'utilisation des ressources des machines sur un réseau. Elle est composée de deux parties : un client écrit en C++ qui collecte les données sur chaque machine et un serveur qui reçoit ces données et les insère dans une base de données. La visualisation des données est faite à l'aide de PHP, HTML, CSS et JavaScript.
 
