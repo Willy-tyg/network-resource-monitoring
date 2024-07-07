@@ -22,7 +22,7 @@ Commencez par cloner le dépôt GitHub sur votre machine locale.
 	sudo apt-get install libmysqlcppconn-dev
 
 
-## **Configurer la base de données  :	**
+## **Configurer la base de données**
 
 	sudo mysql -u root -p
 	# Puis, dans l'interface MySQL :
@@ -33,7 +33,7 @@ Commencez par cloner le dépôt GitHub sur votre machine locale.
 
 ## **Lancer le serveur et l'agent**
 
-	*Serveur	
+	###Serveur	
  
 	    Compiler le code serveur :
      
@@ -41,7 +41,7 @@ Commencez par cloner le dépôt GitHub sur votre machine locale.
 		make
   		./serveur
 
-	*Client ou agent de collecte
+	###Client ou agent de collecte
 
 	    *Installer les bibliothèques nécessaires pour le client C++ :
 
