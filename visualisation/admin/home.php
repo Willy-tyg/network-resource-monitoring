@@ -67,7 +67,7 @@
                     if ($result) {
                         $row = $result->fetch_assoc();
                         $avgRamInBytes = $row['avg_ram'];
-                        $avgRamInGigabytes = $avgRamInBytes / (1024 * 1024 * 1024)+79; // Convertir en Go
+                        $avgRamInGigabytes = $avgRamInBytes / (1024 * 1024 * 1024); // Convertir en Go
                         $avgRamInGigabytesRounded = round($avgRamInGigabytes, 2); // Arrondir à 2 décimales
                         echo $avgRamInGigabytesRounded . ' Go';
                     } else {
@@ -123,7 +123,7 @@
                     if ($result) {
                         $row = $result->fetch_assoc();
                         $avgRamInBytes = $row['avg_disk'];
-                        $avgRamInGigabytes = $avgRamInBytes / (1024 * 1024 * 1024) + 400; // Convertir en Go
+                        $avgRamInGigabytes = $avgRamInBytes / (1024 * 1024 * 1024); // Convertir en Go
                         $avgRamInGigabytesRounded = round($avgRamInGigabytes, 2); // Arrondir à 2 décimales
                         echo $avgRamInGigabytesRounded . ' Go';
                     } else {
